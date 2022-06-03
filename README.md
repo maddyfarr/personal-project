@@ -1,3 +1,7 @@
+# I have created this project to practice and test my skills. Whilst I have a bit of experience currently, it is difficult for 
+# me to know what gaps I need to full in at this stage. I plan to identify my gaps in the process :).
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
