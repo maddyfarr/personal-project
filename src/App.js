@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import Posts from "./components/Posts";
-import './App.css';
+import './App.scss';
+import Title from './components/Title';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
@@ -9,6 +12,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Maddys App</h1>
       </header>
+      <Title />
       <Posts />
     </div>
   );

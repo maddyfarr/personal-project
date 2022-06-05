@@ -1,10 +1,9 @@
-
-import React from "react";
 import Button from 'react-bootstrap/Button';
 
+import React from "react";
 import axios from "axios";
 
-function Posts() {
+function Title() {
     const [posts, setPosts] = React.useState([]);
 
     React.useEffect(() => {
@@ -15,6 +14,7 @@ function Posts() {
 
     return (
         <>
+            <h3>Example heading <span class="label label-default">New</span></h3>
             <Button variant="primary">Button #1</Button>
             <ul className="posts">
                 {posts.map((post) => (
@@ -28,4 +28,4 @@ function Posts() {
     );
 }
 
-export default Posts;
+export default Title;
