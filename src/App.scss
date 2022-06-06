@@ -7,18 +7,43 @@
   max-width: 1000px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header-container {
+  display: flex;
+  flex-direction: column;
 }
 
-.App-header {
-  margin: 0 auto;
+@media screen and (min-width: 415px) {
+  .Header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; //aligns them in center horizontally
+    font-size: calc(10px + 2vmin);
+  }
+}
+
+.Logo-and-header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+@media screen and (min-width: 415px) {
+  .Logo-and-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.App-logo {
+  width: 5vmin;
+  pointer-events: none;
+  margin: 10px;
+}
+
+.App-heading {
+  text-align: center;
 }
 
 li {
