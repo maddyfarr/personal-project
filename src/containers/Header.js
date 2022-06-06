@@ -9,7 +9,7 @@ function Header() {
                 <h3 className="App-heading">Hey hey</h3>
             </div>
             <div className='Blog-posts-button'>
-                <h3>Blog Posts</h3>
+                <h3>Portfolio</h3>
             </div>
         </div >
     );
