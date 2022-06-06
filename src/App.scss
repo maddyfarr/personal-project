@@ -10,13 +10,26 @@
 
 .Main-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: left;
 }
 
+@media screen and (min-width: 415px) {
+  .Main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+}
+
 .Profile-image {
-  width: 100px;
+  width: 150px;
   margin: 10px;
+}
+
+.Blog-posts {
+  max-width: 600px;
+  margin: 30px;
 }
 
 .Header-container {
@@ -56,6 +69,7 @@
 
 .App-heading {
   text-align: center;
+  margin: 20px;
 }
 
 li {

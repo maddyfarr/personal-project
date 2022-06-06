@@ -12,9 +12,10 @@ function App() {
       <Header />
       <div className="Main-content">
         <header className="App-header">
-          <h4>Maddy's App</h4>
           <img className="Profile-image" src={SunImage} alt="blog" />
-          <p className="intro-text">Welcome to my happy place. <br></br>Here, I write about everything that makes me curious.</p>
+          <h4>~Madeleine Farr~</h4>
+          <p className="intro-text">My name is Maddy and I am front-end developer who likes to write, read fantasy, rock climb, run, mess around on a guitar, learn German, paint, learn random facts.</p>
+          <p>Self confessed introvert.</p>
         </header>
         <div className="Blog-posts">
           <Title />
