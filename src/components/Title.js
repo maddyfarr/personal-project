@@ -14,7 +14,7 @@ function Title() {
 
     return (
         <>
-            <h3>Example heading <span class="label label-default">New</span></h3>
+            <h3>Example heading <span className="label label-default">New</span></h3>
             <Button variant="primary">Button #1</Button>
             <ul className="posts">
                 {posts.map((post) => (

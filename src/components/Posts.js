@@ -1,6 +1,7 @@
 
 import React from "react";
 import Button from 'react-bootstrap/Button';
+import SunImage from '../sun.JPG';
 
 import axios from "axios";
 
@@ -15,6 +16,7 @@ function Posts() {
 
     return (
         <>
+            <img src={SunImage} alt="blog" />
             <Button variant="primary">Button #1</Button>
             <ul className="posts">
                 {posts.map((post) => (
