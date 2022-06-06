@@ -5,6 +5,18 @@
   text-align: center;
   margin: 0 auto;
   max-width: 1000px;
+  margin: 30px;
+}
+
+.Main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.Profile-image {
+  width: 100px;
+  margin: 10px;
 }
 
 .Header-container {
